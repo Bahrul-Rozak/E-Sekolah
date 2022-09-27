@@ -57,5 +57,10 @@ php artisan migrate
 ```
 php artisan db:seed
 ```
+## URL LOGIN
+- tinggal tambah /login
+- email : admin@sekolah.com
+- passoword : bahrulrozak
+
 Apabila Anda menemukan code error silahkan PR saja. Sekian dan semoga bermanfaat
 ## Salaaam Open Source!
