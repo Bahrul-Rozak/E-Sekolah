@@ -17,9 +17,8 @@ Ya E-Sekolah open source dan kamu juga bisa mengembangkannya kembali, akan tetap
 ## Tampilan Halaman Login E-Sekolah
 ![image](https://user-images.githubusercontent.com/57394564/192224064-f8d23c7d-c433-41a2-ba7e-02b60a03592c.png)
 
-## Tampilan Halaman Front End E-Sekolah
-
 ## Tampilan Halaman Manajemen Admin E-Sekolah
+![image](https://user-images.githubusercontent.com/57394564/192412620-48cb7583-1f6d-4eec-be06-cc89db8b3490.png)
 
 ## Cara Menggunakan E-Sekolah
 - Langkah pertama silahkan clone repository ini, kemudian jangan lupa di beri star
