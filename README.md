@@ -57,3 +57,5 @@ php artisan migrate
 ```
 php artisan db:seed
 ```
+Apabila Anda menemukan code error silahkan PR saja. Sekian dan semoga bermanfaat
+## Salaaam Open Source!
