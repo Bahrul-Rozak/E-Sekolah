@@ -17,18 +17,43 @@ Ya E-Sekolah open source dan kamu juga bisa mengembangkannya kembali, akan tetap
 ## Tampilan Halaman Login E-Sekolah
 ![image](https://user-images.githubusercontent.com/57394564/192224064-f8d23c7d-c433-41a2-ba7e-02b60a03592c.png)
 
-## Tampilan Halaman Front End E-Sekolah
-
 ## Tampilan Halaman Manajemen Admin E-Sekolah
+![image](https://user-images.githubusercontent.com/57394564/192412620-48cb7583-1f6d-4eec-be06-cc89db8b3490.png)
+
+## Requirements
+- Sudah terinstall composer
+- Sudah terinstall XAMPP
 
 ## Cara Menggunakan E-Sekolah
 - Langkah pertama silahkan clone repository ini, kemudian jangan lupa di beri star
 - Selanjutnya memasang semua dependensi project menggunakan perintah 
-```
+```dark
 composer install
 ```
 - Jika Mengalami kegagalan coba untuk melakukan update
 ```
 composer update
 ```
-- Langkah selanjutnya 
+- Langkah selanjutnya adalah mengenerate file env example menggunakan perintah
+```
+cp .env.example .env
+```
+Maka Anda akan mendapati file .env seperti berikut<br>
+![image](https://user-images.githubusercontent.com/57394564/192418740-c6b2f37e-f04d-4c40-bbcd-3ba2cc223b6e.png)
+
+- Kemudian lakukan generate key, menggunakan perintah
+```
+php artisan key:generate
+```
+- Kemudian set up database terlebih dahulu di phpmyadmin Anda
+- Kemudian edit file hasil generate env file, seperti berikut. Cocokan dengan nama database Anda <br>
+![image](https://user-images.githubusercontent.com/57394564/192418632-87676d7d-588f-4a22-9206-9bedb6662d0c.png)
+
+- Kemudian lakukan migrate database menggunakan perintah
+```
+php artisan migrate
+```
+- Terakhir lakukan seed menggunakan perintah
+```
+php artisan db:seed
+```
