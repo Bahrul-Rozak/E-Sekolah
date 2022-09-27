@@ -38,12 +38,16 @@ composer update
 ```
 cp .env.example .env
 ```
+Maka Anda akan mendapati file .env seperti berikut<br>
+![image](https://user-images.githubusercontent.com/57394564/192418740-c6b2f37e-f04d-4c40-bbcd-3ba2cc223b6e.png)
+
 - Kemudian lakukan generate key, menggunakan perintah
 ```
 php artisan key:generate
 ```
 - Kemudian set up database terlebih dahulu di phpmyadmin Anda
-- Kemudian edit file hasil generate env file, seperti berikut. Cocokan dengan nama database Anda
+- Kemudian edit file hasil generate env file, seperti berikut. Cocokan dengan nama database Anda <br>
+![image](https://user-images.githubusercontent.com/57394564/192418632-87676d7d-588f-4a22-9206-9bedb6662d0c.png)
 
 - Kemudian lakukan migrate database menggunakan perintah
 ```
