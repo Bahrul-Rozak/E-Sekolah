@@ -34,7 +34,7 @@ composer install
 ```
 composer update
 ```
-- Langkah selanjutnya adalah mengenerate file env example menggunakan perintah
+- Langkah selanjutnya adalah mengenerate file env example / atau simplenya meng copy file env example menggunakan perintah
 ```
 cp .env.example .env
 ```
@@ -53,7 +53,7 @@ php artisan key:generate
 ```
 php artisan migrate
 ```
-- Terakhir lakukan seed menggunakan perintah
+- Terakhir lakukan seed database menggunakan perintah
 ```
 php artisan db:seed
 ```
