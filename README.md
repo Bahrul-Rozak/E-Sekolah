@@ -62,5 +62,5 @@ php artisan db:seed
 - email : admin@sekolah.com
 - passoword : bahrulrozak
 
-Apabila Anda menemukan code error silahkan lakukan PR saja. Sekian dan semoga bermanfaat
+Apabila Anda menemukan code error silahkan lakukan PR (Pull Request) saja. Sekian dan semoga bermanfaat
 ## Salaaam Open Source!
