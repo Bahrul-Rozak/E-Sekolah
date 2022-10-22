@@ -9,7 +9,8 @@ Berikut beberapa fitur yang ada di dalam E-Sekolah
 - Manajemen Agenda Sekolah
 - Manajemen Tentang Sekolah
 - Dan masih banyak lagi 
-Oleh karena itu website itu sangat cocok digunakan untuk instansi pendidikan mulai dari tingkat SD, SMP, SMA / SMK
+
+Oleh karena itu source code website ini sangat cocok digunakan untuk instansi pendidikan mulai dari tingkat SD, SMP, SMA / SMK
 
 ## Apakah E-Sekolah open source?
 Ya E-Sekolah open source dan kamu juga bisa mengembangkannya kembali, akan tetapi dilarang untuk menghapus atau menghilangkan credit
